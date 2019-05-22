@@ -1,0 +1,7 @@
+<%= "#{facade.total_count} Students" %>
+<% facade.slytherin.each do |student| %>
+  <ul id="students">
+    <li><%= student['name'] %></li>
+    <li><%= student['id'] %></li>
+  </ul>
+<% end %>
